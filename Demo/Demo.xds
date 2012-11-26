@@ -1,0 +1,48 @@
+{
+    "name": "Demo",
+    "settings": {
+        "urlPrefix": "",
+        "spacesToIndent": 4,
+        "exportPath": "",
+        "sdkPath": "",
+        "lineEnding": "CRLF",
+        "genTimestamps": false,
+        "cacheBust": false
+    },
+    "xdsVersion": "2.1.0",
+    "xdsBuild": 676,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000498,
+    "framework": "ext41",
+    "topInstanceFileMap": {
+        "3f5ae04c-69c8-4063-a482-b944ad2f8b7a": {
+            "paths": [
+                "metadata/view/MyPanel",
+                "app/view/override/MyPanel.js",
+                "app/view/MyPanel.js",
+                "app/view/Viewport.js"
+            ],
+            "className": "MyPanel"
+        },
+        "8f589f64-834b-41b9-8ec7-7e269e35755e": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "3f5ae04c-69c8-4063-a482-b944ad2f8b7a"
+        ],
+        "store": [],
+        "controller": [],
+        "model": [],
+        "resource": [
+            "8f589f64-834b-41b9-8ec7-7e269e35755e"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}
